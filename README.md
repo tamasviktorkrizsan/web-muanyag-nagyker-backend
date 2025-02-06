@@ -97,7 +97,6 @@ While the Node.js server is running. Open a new terminal window, and run the "te
 npm test
 ```
 
-
 ## Important notes for production
 
 If you want to run this app in production environments, make sure you put these headers in the api.js file in a block comment.
