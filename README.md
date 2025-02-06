@@ -98,6 +98,24 @@ npm test
 ```
 
 
+## Important notes for production
+
+If you want to run this app in production environments, make sure you put these headers in the api.js file in a block comment.
+
+```
+/* 
+
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
+ */
+
+```
+
+
 ## Developer notes
 
 ### Code Style
