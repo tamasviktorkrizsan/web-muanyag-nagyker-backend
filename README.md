@@ -75,7 +75,7 @@ And you can send the following requests in Postman...
 
 **request type:** post
 
-**endpoint:** http://localhost:3000/catalog
+**endpoint:** http://localhost:3000/mail
 
 **request body:**
 
