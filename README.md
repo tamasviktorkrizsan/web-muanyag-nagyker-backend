@@ -2,7 +2,7 @@
 
 This repository contains the back-end Node.js source code of the Matejka Műanyagárú Nagykereskedelem.
  
-## Features
+## Stack / Features
 
 - Node.js
 - REST API
@@ -57,7 +57,7 @@ TEST_API_HOST='http://localhost:3000'
 node api
 ```
 
-And you can send the following requests in Postman or run a front-end app on this API it.
+And you can send the following requests in Postman or run a front-end app on this API.
 
 
 ## services
