@@ -17,7 +17,7 @@ This repository contains the back-end Node.js source code of the Matejka Műanya
 
   - Node
   - XAMPP (or equivalent for MySQL service provider)
-  - Postman (or equivalent for making http requests)
+  - OPTIONAL: Postman (or equivalent for making http requests)
 
 2. Clone this repostiory to your local drive and open a terminal window in your local git folder and install the dependencies.
 
@@ -25,7 +25,7 @@ This repository contains the back-end Node.js source code of the Matejka Műanya
 npm -i
 ```
 
-3. Fire up XAMPP and import the catalog database from the db folder. 
+3. Fire up XAMPP with Apache + Mysql and import the catalog database from the db folder. 
 
 4. Create a '.env' file in the root directory of this repository with the following variables.
 
@@ -47,13 +47,17 @@ If you want to run tests add the following to this list.
 TEST_API_HOST='http://localhost:3000'
 ```
 
-5. Start the Node.js server.
+## running on localhost
+
+1. Fire up XAMPP with Mysql.
+   
+3. Start the Node.js server in the root directory of this repository.
 
 ```
 node api
 ```
 
-And you can send the following requests in Postman...
+And you can send the following requests in Postman or run a front-end app on this API it.
 
 
 ## services
